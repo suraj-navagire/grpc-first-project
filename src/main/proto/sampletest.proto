@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.snav.grpc.stub";
+
+service SampleTest {
+    rpc read(SampleTestRequestDTO) returns (SampleTestResponseDTO){}
+}
+
+message SampleTestRequestDTO {
+    int32 id = 1;
+}
+
+message SampleTestResponseDTO {
+    int32 id = 1;
+    string name = 2;
+    string description = 3;
+}
