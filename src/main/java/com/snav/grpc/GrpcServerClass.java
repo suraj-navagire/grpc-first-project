@@ -6,7 +6,7 @@ import io.grpc.ServerBuilder;
 
 import java.io.IOException;
 
-public class GrpcClass {
+public class GrpcServerClass {
 		public static void main(String[] args) throws IOException, InterruptedException {
 				try {
 						Server server = ServerBuilder.forPort(4444).addService(new SampleTestService()).build();
