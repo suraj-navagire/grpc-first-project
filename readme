@@ -9,3 +9,5 @@ GrpcClientClass is java client which we can use as a client to call GRPC server.
 Import this project . Setup your IDE jdk8. Build the project. Start main class. 
 
 You are ready to use this.
+
+Link for more details on GRPC ;- https://grpc.io/docs/languages/java/basics/#client
