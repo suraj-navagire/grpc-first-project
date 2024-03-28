@@ -2,7 +2,9 @@ This is baisc GRPC project which someone can use as a starting point for GRPC.
 
 This project conitains bare minimum build.gradle file
 
-This project contains proto file which has read API. When we start main class GrpcClass.java it will start GRPC server. Client can consume after this.
+This project contains proto file which has read API. When we start main class GrpcServerClass.java it will start GRPC server. Client can consume after this.
+
+GrpcClientClass is java client which we can use as a client to call GRPC server.
 
 Import this project . Setup your IDE jdk8. Build the project. Start main class. 
 
